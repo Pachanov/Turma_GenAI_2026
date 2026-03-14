@@ -1,3 +1,7 @@
+########Versionamento de código e github#######
+
+
+
 ##########Trabalho em equipe##########
 
 #projetos de GenIA raramente sao feitos por uma única pessoa.
