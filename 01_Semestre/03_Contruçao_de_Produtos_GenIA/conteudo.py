@@ -35,3 +35,17 @@
 #4)ciclo de vida do projeto: Facilita a manutencao e atualizaçao do projeto ao longo do tempo.
 
 
+#Git:PRINCIPAIS COMANDOS
+#git init: Inicializa um novo repositório Git.
+#git add <arquivo>: Adiciona um arquivo específico ao staging area.
+#git commit -m "mensagem": Salva as mudanças no repositório com uma mensagem descritiva.
+#git push: Envia as mudanças para um repositório remoto (ex: GitHub
+#git pull: Atualiza o repositório local com as mudanças do repositório remoto.
+#git clone <url>: Clona um repositório remoto para o local.
+#git status: Mostra o status dos arquivos (modificados, não rastreados, etc.).
+#git log: Exibe o histórico de commits.
+#git diff: Mostra as diferenças entre arquivos modificados e a última versão commitada.
+#git branch: Lista as branches existentes e indica a branch atual.
+#git checkout <branch>: Muda para a branch especificada.
+#git merge <branch>: Mescla a branch especificada com a branch atual.
+#git pull request: Solicita a revisão e mesclagem de mudanças em um repositório remoto (usado em plataformas como GitHub).
