@@ -5,11 +5,11 @@ Exemplo: `"Olá mundo"` → `9` """
 
 
 
-# def comprimento_string(s):
-#     return len(s)
+def comprimento_string(s):
+    return len(s)
 
-# # Testando a função
-# print(comprimento_string("Olá mundo"))  # Deve retornar 9
+# Testando a função
+print(comprimento_string("Olá mundo"))  # Deve retornar 9
 
 
 """2. Inversão de string
@@ -17,15 +17,15 @@ Crie uma função que inverta uma string sem usar fatiamento `[::-1]` (use um lo
 Exemplo: `"Python"` → `"nohtyP"` """
 
 
-# def funcao_invertida(s):
-#     invertida = ""
-#     for i in range(len(s)-1, -1, -1):
-#         invertida += s[i]
-#     return invertida
+def funcao_invertida(s):
+    invertida = ""
+    for i in range(len(s)-1, -1, -1):
+        invertida += s[i]
+    return invertida
 
-# input_string = "Python"
-# resultado = funcao_invertida(input_string)
-# print(resultado)  # Deve imprimir "nohtyP"
+input_string = "Python"
+resultado = funcao_invertida(input_string)
+print(resultado)  # Deve imprimir "nohtyP"
 
 
 
@@ -35,18 +35,18 @@ Dada uma string, conte quantas vogais (a, e, i, o, u) e quantas consoantes ela p
 maiúsculas/minúsculas.
 Exemplo: `"GenAI"` → Vogais: 3, Consoantes: 2"""
 
-# def contar_vogais_consoantes(s):
-#     contar_vogais_consoantes = {"vogais": 0, "consoantes": 0}
-#     for char in s.lower():
-#         if char in "aeiou":
-#             contar_vogais_consoantes["vogais"] += 1
-#         elif char.isalpha():  # Verifica se é uma letra (consoante)
-#             contar_vogais_consoantes["consoantes"] += 1
-#     return contar_vogais_consoantes
+def contar_vogais_consoantes(s):
+    contar_vogais_consoantes = {"vogais": 0, "consoantes": 0}
+    for char in s.lower():
+        if char in "aeiou":
+            contar_vogais_consoantes["vogais"] += 1
+        elif char.isalpha():  # Verifica se é uma letra (consoante)
+            contar_vogais_consoantes["consoantes"] += 1
+    return contar_vogais_consoantes
 
-# # Testando a função
-# resultado = contar_vogais_consoantes("GenAI")
-# print(f"Vogais: {resultado['vogais']}, Consoantes: {resultado['consoantes']}")  # Deve imprimir "Vogais: 3, Consoantes: 2"
+# Testando a função
+resultado = contar_vogais_consoantes("GenAI")
+print(f"Vogais: {resultado['vogais']}, Consoantes: {resultado['consoantes']}")  # Deve imprimir "Vogais: 3, Consoantes: 2"
 
 
 
