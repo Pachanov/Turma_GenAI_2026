@@ -13,7 +13,7 @@
 
 notas_da_turma = []
 while True:
-    nota = float(input("Digite a nota do aluno (ou -1 para finalizar): "))
+    nota = float(input("Digite a nota do aluno (ou -1 para encerrar): "))
     if nota == -1:
         break
     notas_da_turma.append(nota)
